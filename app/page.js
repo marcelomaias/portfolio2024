@@ -1,95 +1,100 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import imageplaceholder from "@/app/images/image.svg"
+import Link from "next/link";
+import { FaExternalLinkAlt, FaLinkedin, FaGithub, FaHtml5, FaCss3Alt, FaWordpress, FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { RiNextjsFill } from "react-icons/ri";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
+
+    <>
+      <div className="social">
+        <Link href="#" target="_blank">
+          <FaLinkedin size={32} color="#000" title="Open on new tab/window" />
+        </Link>
+        <Link href="#" target="_blank">
+          <FaGithub size={32} color="#000" title="Open on new tab/window" />
+        </Link>
+      </div>
+      <div className="container">
+        <main >
+          {/* <Image
           className={styles.logo}
           src="https://nextjs.org/icons/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
           priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+        /> */}
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+          <h1>marcelomaias.com</h1>
+          <section className="text">
+            <p>Hello, I am Marcelo Maia, a web developer with a passion for creating fast and user-friendly websites. With expertise in semantic <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> and web tecnologies like <strong>React</strong>, <strong>NextJS</strong>, and <strong>Wordpress</strong>, I have built a diverse range of projects.</p>
+
+            <div className="techs">
+              <FaHtml5 size={64} color="#999" title="HTML5" /> <FaCss3Alt size={64} color="#999" title="CSS" /> <IoLogoJavascript size={64} color="#999" title="JavaScript" /> <FaReact size={64} color="#999" title="React" /> <RiNextjsFill size={64} color="#999" title="NextJS" /> <FaWordpress size={64} color="#999" title="Wordpress" />
+            </div>
+
+          </section>
+
+          <section>
+            <h2>Demo</h2>
+
+            <div className="card">
+              <Image
+                src={imageplaceholder}
+                alt="Image placeholder"
+              />
+              <div className="description">
+                This demo showcases headless Wordpress  with the front-end build with NextJS, for a very performant website.
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2>Projects<span>(Standard Wordpress implementations while working full time at <Link href="#" target="_blank">House Cricket Digital Direct <FaExternalLinkAlt /></Link>)</span></h2>
+
+            <div className="cards">
+              <div className="card">
+                <Image
+                  src={imageplaceholder}
+                  alt="Image placeholder"
+                />
+                <div className="description">
+                  This demo showcases headless Wordpress  with the front-end build with NextJS, for a very performant website.
+                </div>
+              </div>
+              <div className="card">
+                <Image
+                  src={imageplaceholder}
+                  alt="Image placeholder"
+                />
+                <div className="description">
+                  This demo showcases headless Wordpress  with the front-end build with NextJS, for a very performant website.
+                </div>
+              </div>
+              <div className="card">
+                <Image
+                  src={imageplaceholder}
+                  alt="Image placeholder"
+                />
+                <div className="description">
+                  This demo showcases headless Wordpress  with the front-end build with NextJS, for a very performant website.
+                </div>
+              </div>
+
+            </div>
+
+
+          </section>
+
+
+        </main>
+
+
+      </div>
+    </>
+
   );
 }

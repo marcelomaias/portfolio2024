@@ -158,7 +158,7 @@ export default function Home() {
             </div>
             <Image
               src={imgOcean}
-              alt="Image placeholder"
+              alt="Ocean Travel thumbnail"
               className="thumbnail"
             />
           </div>
@@ -184,7 +184,7 @@ export default function Home() {
               <div className="card">
                 <Image
                   src={imgCooper}
-                  alt="Image placeholder"
+                  alt="Coopernorte thumbnail"
                   className="thumbnail"
                 />
                 <div className="description">
@@ -215,7 +215,7 @@ export default function Home() {
               <div className="card">
                 <Image
                   src={imgMilitec}
-                  alt="Image placeholder"
+                  alt="Militec Brasil thumbnail"
                   className="thumbnail"
                 />
                 <div className="description">
@@ -249,7 +249,7 @@ export default function Home() {
               <div className="card">
                 <Image
                   src={imgMueller}
-                  alt="Image placeholder"
+                  alt="Shopping Mueller thumbnail"
                   className="thumbnail"
                 />
                 <div className="description">

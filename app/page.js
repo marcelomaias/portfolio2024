@@ -45,7 +45,7 @@ export default function Home() {
             Hello, I am Marcelo Maia, a web developer with a passion for
             creating fast and user-friendly websites. With expertise in semantic{" "}
             <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-            <strong>JavaScript</strong> and web tecnologies like{" "}
+            <strong>JavaScript</strong> and web technologies like{" "}
             <strong>React</strong>, <strong>NextJS</strong>,{" "}
             <strong>Tailwind</strong> and <strong>Wordpress</strong>, I have
             built a diverse range of projects.
@@ -70,8 +70,8 @@ export default function Home() {
                 <h3>Front-end web developer | Self-Employed</h3>
                 <p>
                   Currently working as a free-lancer doing mostly front-end
-                  development, but also with experience in back end using
-                  NodeJS, PHP, and with some CMSs like Wordpress.
+                  development, but also with experience in backend using NodeJS,
+                  PHP, and with some CMSs like Wordpress.
                 </p>
                 <strong>March 2024 - Present</strong>
               </div>
@@ -95,8 +95,8 @@ export default function Home() {
                 <h3>Front-end web developer | Self-Employed</h3>
                 <p>
                   Worked as a free-lancer doing mostly front-end development,
-                  but also had some experience in back end using NodeJS, PHP,
-                  and with some CMSs like Wordpress and Drupal.
+                  but also had some experience in backend using NodeJS, PHP, and
+                  with some CMSs like Wordpress and Drupal.
                 </p>
                 <strong>November 2006 - December 2018</strong>
               </div>
@@ -230,7 +230,7 @@ export default function Home() {
                       </Link>
                     </h3>
                     <span>
-                      Wordpress institutional website featuring acessibility,
+                      Wordpress institutional website featuring accessibility,
                       custom filter and a full feature blog with social sharing.
                     </span>
                   </div>
@@ -264,8 +264,8 @@ export default function Home() {
                       </Link>
                     </h3>
                     <span>
-                      Wordpress institutional website featuring acessibility and
-                      custom content types like Stores and Movies.
+                      Wordpress institutional website featuring accessibility
+                      and custom content types like Stores and Movies.
                     </span>
                   </div>
                   <div className="actions">

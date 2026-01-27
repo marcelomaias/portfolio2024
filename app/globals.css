@@ -133,6 +133,11 @@ section {
   }
 }
 
+.demos {
+  .card {
+    margin-bottom: 90px;
+  }
+}
 .techs {
   margin-top: 70px;
   display: flex;

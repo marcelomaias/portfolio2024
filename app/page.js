@@ -309,7 +309,7 @@ export default function Home() {
           {/* <ContactForm /> */}
         </section>
       </main>
-      <footer className="container">marcelomaias.com © 2024</footer>
+      <footer className="container">marcelomaias.com © 2026</footer>
     </>
   );
 }

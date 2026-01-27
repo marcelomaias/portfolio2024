@@ -51,13 +51,13 @@ export default function Home() {
           </p>
 
           <div className="techs">
-            <FaHtml5 size={64} color="#999" title="HTML5" />{" "}
-            <FaCss3Alt size={64} color="#999" title="CSS" />{" "}
-            <IoLogoJavascript size={64} color="#999" title="JavaScript" />{" "}
-            <FaReact size={64} color="#999" title="React" />{" "}
-            <RiNextjsFill size={64} color="#999" title="NextJS" />{" "}
-            <SiPayloadcms size={64} color="#999" title="Payload CMS" />
-            <RiTailwindCssFill size={64} color="#999" title="Tailwind" />
+            <FaHtml5 size={64} color="#333" title="HTML5" />{" "}
+            <FaCss3Alt size={64} color="#333" title="CSS" />{" "}
+            <IoLogoJavascript size={64} color="#333" title="JavaScript" />{" "}
+            <FaReact size={64} color="#333" title="React" />{" "}
+            <RiNextjsFill size={64} color="#333" title="NextJS" />{" "}
+            <SiPayloadcms size={64} color="#333" title="Payload CMS" />
+            <RiTailwindCssFill size={64} color="#333" title="Tailwind" />
           </div>
         </section>
 

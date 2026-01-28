@@ -91,12 +91,12 @@ a:hover:not(.btn) {
 }
 
 section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   @media (min-width: 600px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 }
 
@@ -134,7 +134,7 @@ section {
 }
 
 .demos {
-  .card {
+  .card:first-of-type {
     margin-bottom: 90px;
   }
 }

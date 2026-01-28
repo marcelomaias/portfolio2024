@@ -19,6 +19,8 @@ import logo from "@/app/images/logo.svg";
 import imgDestinations from "@/app/images/destinations.jpg";
 import imgLandingPage from "@/app/images/payload-lp.jpg";
 
+const currentYear = new Date().getFullYear();
+
 export default function Home() {
   return (
     <>
@@ -121,7 +123,7 @@ export default function Home() {
         </section>
 
         <section className="container demos">
-          <h2>Demo</h2>
+          <h2>Demos</h2>
 
           <div className="card">
             <div className="description">
@@ -357,7 +359,17 @@ export default function Home() {
           {/* <ContactForm /> */}
         </section>
       </main>
-      <footer className="container">marcelomaias.com © 2026</footer>
+      <footer className="container">
+        Marcelo Maia © {currentYear} | Built with{" "}
+        <a href="https://nextjs.org" className="hover:underline">
+          Next.js
+        </a>{" "}
+        &{" "}
+        <a href="https://vercel.com" className="hover:underline">
+          Vercel
+        </a>
+        .
+      </footer>
     </>
   );
 }

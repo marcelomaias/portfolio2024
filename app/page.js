@@ -76,7 +76,7 @@ export default function Home() {
               <div className="experience">
                 <h3>Front-End / Full-Stack Web Developer (Contract)</h3>
                 <p>
-                  Designing and delivering content-driven web applications using
+                  Designing and building content-driven web applications using
                   Next.js and React, with hands-on responsibility for back-end
                   content modeling and CMS architecture using Payload CMS.
                 </p>

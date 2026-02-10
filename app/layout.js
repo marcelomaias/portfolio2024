@@ -13,9 +13,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Marcelo Maia - Web development",
+  title: "Marcelo Maia — Web Developer",
   description:
-    "Marcelo Maia - Web Developer with a passion for building fast, user-friendly websites. Skilled in HTML, CSS, JavaScript, React, NextJS, Tailwind, and WordPress. Explore diverse web projects with a focus on performance and seamless user experience.",
+    "Marcelo Maia is a web developer focused on building fast, well-structured, content-driven web applications. Specializing in Next.js, React, and Payload CMS, with an emphasis on performance, maintainability, and editor-friendly experiences.",
 };
 
 export default function RootLayout({ children }) {

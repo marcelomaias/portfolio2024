@@ -215,7 +215,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="block">
+        <section className="block projects">
           <div className="container">
             <h2>
               Projects{" "}

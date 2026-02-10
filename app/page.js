@@ -44,12 +44,18 @@ export default function Home() {
             height={64}
           />
           <p>
-            Hi, I’m Marcelo Maia, a web developer focused on creating fast,
-            intuitive, and well-crafted websites. I work with semantic{" "}
-            <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-            <strong>JavaScript</strong>, and tools like <strong>React</strong>,{" "}
-            <strong>Next.js</strong>, <strong>Tailwind</strong>, and{" "}
-            <strong>Payload CMS</strong> to bring ideas to life.
+            Hi, I’m Marcelo Maia, a web developer focused on building{" "}
+            <strong>fast</strong>, <strong>well-structured</strong>,{" "}
+            <strong>content-driven web applications</strong> with an emphasis on{" "}
+            <strong>long-term maintainability</strong>.
+          </p>
+          <p>
+            I work with <strong>semantic HTML</strong>, <strong>CSS</strong>,{" "}
+            <strong>JavaScript</strong>, <strong>React</strong>, and{" "}
+            <strong>Next.js</strong>, and I design{" "}
+            <strong>clear, domain-driven content models</strong> using{" "}
+            <strong>Payload CMS</strong> to create intuitive experiences for
+            both <strong>users</strong> and <strong>content editors</strong>.
           </p>
 
           <div className="techs">
@@ -68,11 +74,11 @@ export default function Home() {
             <h2>Experience</h2>
             <div className="experiences">
               <div className="experience">
-                <h3>Front-end web developer | Self-Employed</h3>
+                <h3>Front-End / Full-Stack Web Developer (Contract)</h3>
                 <p>
-                  I currently work as a freelancer, focusing mainly on front-end
-                  development, while also having experience with back-end work
-                  using Payload CMS.
+                  Designing and delivering content-driven web applications using
+                  Next.js and React, with hands-on responsibility for back-end
+                  content modeling and CMS architecture using Payload CMS.
                 </p>
                 <strong>March 2024 - Present</strong>
               </div>
@@ -87,18 +93,19 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  I was part of a team responsible for developing the front end
-                  of dynamic websites built with PHP and Python.
+                  Worked as part of a development team building front-end
+                  interfaces for dynamic websites, integrating with back-end
+                  systems built in PHP and Python.
                 </p>
                 <strong>December 2019 - February 2024</strong>
               </div>
               <div className="experience">
                 <h3>Front-end web developer | Self-Employed</h3>
                 <p>
-                  Worked as a freelancer, primarily focusing on front-end
-                  development, with additional experience in back-end
-                  development using Node.js and PHP, as well as CMS platforms
-                  such as WordPress and Drupal.
+                  Provided front-end development services for a range of web
+                  projects, working with JavaScript, HTML, and CSS, and
+                  integrating with back-end systems built in Node.js and PHP, as
+                  well as CMS platforms such as WordPress and Drupal.
                 </p>
                 <strong>November 2006 - December 2018</strong>
               </div>
@@ -113,8 +120,8 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  I was part of a team responsible for developing the front end
-                  of dynamic websites built with PHP.
+                  Early-career role contributing to the development of front-end
+                  interfaces for dynamic websites backed by PHP-based systems.
                 </p>
                 <strong>July 2001 - November 2004</strong>
               </div>
@@ -137,9 +144,10 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  A website built with Payload showcasing some of the most
-                  common features of a modern website. Very performant, hosted
-                  serverless at Vercel.
+                  A modern, content-driven website built with Payload CMS,
+                  demonstrating flexible content modeling, dynamic page
+                  composition, and high performance on a serverless Vercel
+                  deployment.
                 </p>
               </div>
 
@@ -181,8 +189,8 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  A simple landing page featuring a very performant front and
-                  back-end, built with Payload.
+                  A lightweight landing page built with Payload CMS, focused on
+                  performance, simplicity, and efficient content delivery.
                 </p>
               </div>
 
@@ -218,7 +226,7 @@ export default function Home() {
             <h2>
               Projects{" "}
               <span>
-                (Wordpress implementations while working full time at{" "}
+                (Production WordPress Projects —{" "}
                 <Link
                   href="https://www.linkedin.com/company/housecricket/posts/?feedView=all"
                   target="_blank"
@@ -279,8 +287,9 @@ export default function Home() {
                       </Link>
                     </h3>
                     <span>
-                      Institutional WordPress website featuring accessibility
-                      support and a fully featured blog with social sharing.
+                      Institutional WordPress website with accessibility
+                      considerations and a fully featured blog, including social
+                      sharing functionality.
                     </span>
                   </div>
                   <div className="actions">
@@ -313,9 +322,9 @@ export default function Home() {
                       </Link>
                     </h3>
                     <span>
-                      Institutional WordPress website featuring accessibility
-                      support and custom content types such as Stores and
-                      Movies.
+                      Institutional WordPress website with accessibility support
+                      and custom-designed content types for structured content
+                      such as Stores and Movies.
                     </span>
                   </div>
                   <div className="actions">
@@ -337,11 +346,12 @@ export default function Home() {
         <section className="container">
           <h2>Contact</h2>
           <p>
-            You can send me an email to{" "}
+            If you’d like to talk about a project or opportunity, feel free to
+            reach out by email at{" "}
             <Link href="mailto:marcelomaias@gmail.com">
               marcelomaias@gmail.com
             </Link>{" "}
-            or send me a message in{" "}
+            or connect with me on{" "}
             <Link
               className="inLineLink"
               href="https://www.linkedin.com/in/marcelomaia/"

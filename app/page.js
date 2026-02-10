@@ -85,10 +85,7 @@ export default function Home() {
               <div className="experience">
                 <h3>
                   Front-end web developer |{" "}
-                  <Link
-                    target="_blank"
-                    href="https://www.linkedin.com/company/housecricket/posts/?feedView=all"
-                  >
+                  <Link target="_blank" href="https://housecricket.com.br/en/">
                     HouseCricket Digital & Direct <FaExternalLinkAlt />
                   </Link>
                 </h3>
@@ -112,10 +109,7 @@ export default function Home() {
               <div className="experience">
                 <h3>
                   Front-end web developer |{" "}
-                  <Link
-                    target="_blank"
-                    href="https://www.linkedin.com/company/pontocom-agencia/"
-                  >
+                  <Link target="_blank" href="https://www.pontocom.ag/">
                     PontoCom Digital <FaExternalLinkAlt />
                   </Link>
                 </h3>
@@ -227,10 +221,7 @@ export default function Home() {
               Projects{" "}
               <span>
                 (Production WordPress Projects —{" "}
-                <Link
-                  href="https://www.linkedin.com/company/housecricket/posts/?feedView=all"
-                  target="_blank"
-                >
+                <Link href="https://housecricket.com.br/en/" target="_blank">
                   House Cricket Digital Direct <FaExternalLinkAlt />
                 </Link>
                 )

@@ -7,7 +7,6 @@ import {
   FaGithub,
   FaHtml5,
   FaCss3Alt,
-  FaWordpress,
   FaReact,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -18,7 +17,7 @@ import imgMilitec from "@/app/images/militecbrasil.com.br.png";
 import logo from "@/app/images/logo.svg";
 import imgDestinations from "@/app/images/destinations.jpg";
 import imgLandingPage from "@/app/images/payload-lp.jpg";
-import imgLinkSpace from "@/app/images/linkspace.png";
+import imgLinkSpace from "@/app/images/linkspace2.png";
 import imgMoovee from "@/app/images/moovee.png";
 
 const currentYear = new Date().getFullYear();
@@ -46,18 +45,18 @@ export default function Home() {
             height={64}
           />
           <p>
-            Hi, I’m Marcelo Maia, a web developer focused on building{" "}
-            <strong>fast</strong>, <strong>well-structured</strong>,{" "}
+            Hi, I’m <strong>Marcelo Maia</strong> — a web developer focused on
+            building <strong>fast</strong>, <strong>well-structured</strong>,{" "}
             <strong>content-driven web applications</strong> with an emphasis on{" "}
             <strong>long-term maintainability</strong>.
           </p>
+
           <p>
-            I work with <strong>semantic HTML</strong>, <strong>CSS</strong>,{" "}
-            <strong>JavaScript</strong>, <strong>React</strong>, and{" "}
-            <strong>Next.js</strong>, and I design{" "}
-            <strong>clear, domain-driven content models</strong> using{" "}
-            <strong>Payload CMS</strong> to create intuitive experiences for
-            both <strong>users</strong> and <strong>content editors</strong>.
+            I work with <strong>Next.js, React, and Payload CMS</strong>,
+            designing <strong>clear</strong>,{" "}
+            <strong>domain-driven content models</strong> to create intuitive
+            experiences for both <strong>users</strong> and{" "}
+            <strong>content editors</strong>.
           </p>
 
           <div className="techs">
@@ -76,13 +75,15 @@ export default function Home() {
             <h2>Experience</h2>
             <div className="experiences">
               <div className="experience">
-                <h3>Front-End / Full-Stack Web Developer (Contract)</h3>
+                <h3>Independent Web Developer</h3>
                 <p>
-                  Designing and building content-driven web applications using
-                  Next.js and React, with hands-on responsibility for back-end
-                  content modeling and CMS architecture using Payload CMS.
+                  Developing modern web applications using{" "}
+                  <strong>Next.js, React, and Payload CMS</strong>, focusing on
+                  performance and scalable content architecture. Also providing
+                  freelance maintenance, improvements, and technical consulting
+                  for existing web projects.
                 </p>
-                <strong>March 2024 - Present</strong>
+                <strong>March 2024 — Present</strong>
               </div>
               <div className="experience">
                 <h3>
@@ -92,19 +93,20 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  Worked as part of a development team building front-end
-                  interfaces for dynamic websites, integrating with back-end
-                  systems built in PHP and Python.
+                  Built and maintained{" "}
+                  <strong>production websites for institutional clients</strong>
+                  , implementing responsive interfaces and CMS-driven features.
+                  Worked closely with designers and backend developers to
+                  deliver reliable, high-quality websites.
                 </p>
                 <strong>December 2019 - February 2024</strong>
               </div>
               <div className="experience">
                 <h3>Front-end web developer | Self-Employed</h3>
                 <p>
-                  Provided front-end development services for a range of web
-                  projects, working with JavaScript, HTML, and CSS, and
-                  integrating with back-end systems built in Node.js and PHP, as
-                  well as CMS platforms such as WordPress and Drupal.
+                  Delivered front-end development for client projects, building
+                  responsive websites and integrating with CMS and backend
+                  systems.
                 </p>
                 <strong>November 2006 - December 2018</strong>
               </div>
@@ -116,8 +118,8 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  Early-career role contributing to the development of front-end
-                  interfaces for dynamic websites backed by PHP-based systems.
+                  Contributed to the development of front-end interfaces for
+                  dynamic, CMS-driven websites.
                 </p>
                 <strong>July 2001 - November 2004</strong>
               </div>
@@ -126,7 +128,7 @@ export default function Home() {
         </section>
 
         <section className="container demos">
-          <h2>Demos</h2>
+          <h2>Projects</h2>
 
           <div className="card">
             <div className="description">
@@ -137,11 +139,13 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  LinkSpace is a link-in-bio app where users get a personal
-                  public profile page to share all their links in one place. It
-                  includes drag-and-drop reordering, custom link icons, profile
-                  pictures, dark mode, and an admin panel for managing users and
-                  content.
+                  Link-in-bio platform with customizable profiles,
+                  authentication, and media uploads.
+                </p>
+
+                <p>
+                  <strong>Tech stack:</strong> Next.js 15 · Payload CMS ·
+                  TypeScript · Tailwind · Vercel
                 </p>
               </div>
 
@@ -181,10 +185,13 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  Moovee is a movie browsing app built with Next.js 15,
-                  TypeScript, and Tailwind CSS. Search films, explore cast and
-                  director details, and save your favorites to a personal
-                  collection.
+                  Movie browsing application with search, detailed pages, and
+                  personal favorites.
+                </p>
+
+                <p>
+                  <strong>Tech stack:</strong> Next.js · TypeScript · Tailwind ·
+                  TMDB API · Vercel
                 </p>
               </div>
 
@@ -225,11 +232,15 @@ export default function Home() {
                     Destinations <FaExternalLinkAlt color="#0075f2" size={16} />
                   </Link>
                 </h3>
+
                 <p>
-                  A modern, content-driven website built with Payload CMS,
-                  demonstrating flexible content modeling, dynamic page
-                  composition, and high performance on a serverless Vercel
-                  deployment.
+                  CMS-driven website demonstrating flexible content modeling and
+                  dynamic page composition.
+                </p>
+
+                <p>
+                  <strong>Tech stack:</strong> Next.js · Payload CMS ·
+                  TypeScript · Tailwind · Vercel
                 </p>
               </div>
 
@@ -306,9 +317,9 @@ export default function Home() {
         <section className="block projects">
           <div className="container">
             <h2>
-              Projects{" "}
+              Client work{" "}
               <span>
-                (Production WordPress Projects —{" "}
+                (
                 <Link href="https://housecricket.com.br/en/" target="_blank">
                   House Cricket Digital Direct <FaExternalLinkAlt />
                 </Link>
@@ -365,11 +376,15 @@ export default function Home() {
                         <FaExternalLinkAlt color="#0075f2" size={16} />
                       </Link>
                     </h3>
-                    <span>
-                      Institutional WordPress website with accessibility
-                      considerations and a fully featured blog, including social
-                      sharing functionality.
-                    </span>
+                    <p>
+                      Institutional website with structured content, blog, and
+                      responsive design.
+                    </p>
+
+                    <p>
+                      <strong>Tech stack:</strong> WordPress · PHP · JavaScript
+                      · CSS
+                    </p>
                   </div>
                   <div className="actions">
                     <Link
@@ -400,11 +415,15 @@ export default function Home() {
                         <FaExternalLinkAlt color="#0075f2" size={16} />
                       </Link>
                     </h3>
-                    <span>
-                      Institutional WordPress website with accessibility support
-                      and custom-designed content types for structured content
-                      such as Stores and Movies.
-                    </span>
+                    <p>
+                      Institutional website with custom content structure and
+                      accessibility considerations.
+                    </p>
+
+                    <p>
+                      <strong>Tech stack:</strong> WordPress · PHP · JavaScript
+                      · CSS
+                    </p>
                   </div>
                   <div className="actions">
                     <Link
@@ -424,40 +443,31 @@ export default function Home() {
 
         <section className="container">
           <h2>Contact</h2>
+
+          <p>I’m currently open to remote opportunities.</p>
           <p>
-            If you’d like to talk about a project or opportunity, feel free to
-            reach out by email at{" "}
-            <Link href="mailto:marcelomaias@gmail.com">
-              marcelomaias@gmail.com
-            </Link>{" "}
-            or connect with me on{" "}
-            <Link
-              className="inLineLink"
-              href="https://www.linkedin.com/in/marcelomaia/"
-              target="_blank"
-            >
-              LinkedIn
+            Email:{" "}
+            <a href="mailto:marcelomaias@gmail.com">marcelomaias@gmail.com</a> |{" "}
+            <span className="inLineLink">
+              <Link
+                href="https://www.linkedin.com/in/marcelomaia/"
+                target="_blank"
+              >
+                LinkedIn
+              </Link>
               <FaLinkedin
                 size={32}
                 color="#000"
                 title="Open on new tab/window"
               />
-            </Link>
-            .
+            </span>
           </p>
+
           {/* <ContactForm /> */}
         </section>
       </main>
       <footer className="container">
-        Marcelo Maia © {currentYear} | Built with{" "}
-        <a href="https://nextjs.org" className="hover:underline">
-          Next.js
-        </a>{" "}
-        &{" "}
-        <a href="https://vercel.com" className="hover:underline">
-          Vercel
-        </a>
-        .
+        <Link href="/">Marcelo Maia</Link> © 2026 | Web Developer · Bass Player
       </footer>
     </>
   );

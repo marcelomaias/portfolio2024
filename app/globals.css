@@ -130,7 +130,7 @@ section {
 
   @media (min-width: 600px) {
     flex-direction: row;
-
+    align-items: flex-start;
     img {
       max-width: 50%;
     }
@@ -138,8 +138,11 @@ section {
 }
 
 .demos {
-  .card:first-of-type {
+  .card {
     margin-bottom: 90px;
+  }
+  .card:last-of-type {
+    margin-bottom: 0;
   }
   p {
     margin-bottom: 0;

@@ -18,6 +18,8 @@ import imgMilitec from "@/app/images/militecbrasil.com.br.png";
 import logo from "@/app/images/logo.svg";
 import imgDestinations from "@/app/images/destinations.jpg";
 import imgLandingPage from "@/app/images/payload-lp.jpg";
+import imgLinkSpace from "@/app/images/linkspace.png";
+import imgMoovee from "@/app/images/moovee.png";
 
 const currentYear = new Date().getFullYear();
 
@@ -130,9 +132,95 @@ export default function Home() {
             <div className="description">
               <div>
                 <h3>
+                  <Link target="_blank" href="https://linkspaceone.vercel.app">
+                    LinkSpace <FaExternalLinkAlt color="#0075f2" size={16} />
+                  </Link>
+                </h3>
+                <p>
+                  LinkSpace is a link-in-bio app where users get a personal
+                  public profile page to share all their links in one place. It
+                  includes drag-and-drop reordering, custom link icons, profile
+                  pictures, dark mode, and an admin panel for managing users and
+                  content.
+                </p>
+              </div>
+
+              <div className="actions">
+                <Link
+                  target="_blank"
+                  className="btn code"
+                  href="https://github.com/marcelomaias/linkspace"
+                >
+                  <span>View code</span>{" "}
+                  <FaExternalLinkAlt color="#fff" size={16} />
+                </Link>
+                <Link
+                  target="_blank"
+                  className="btn"
+                  href="https://linkspaceone.vercel.app"
+                >
+                  <span>View website</span>{" "}
+                  <FaExternalLinkAlt color="#333" size={16} />
+                </Link>
+              </div>
+            </div>
+            <Image
+              src={imgLinkSpace}
+              alt="LinkSpace thumbnail"
+              height="auto"
+              className="thumbnail"
+            />
+          </div>
+
+          <div className="card">
+            <div className="description">
+              <div>
+                <h3>
+                  <Link target="_blank" href="https://moovee-one.vercel.app/">
+                    Moovee <FaExternalLinkAlt color="#0075f2" size={16} />
+                  </Link>
+                </h3>
+                <p>
+                  Moovee is a movie browsing app built with Next.js 15,
+                  TypeScript, and Tailwind CSS. Search films, explore cast and
+                  director details, and save your favorites to a personal
+                  collection.
+                </p>
+              </div>
+
+              <div className="actions">
+                <Link
+                  target="_blank"
+                  className="btn code"
+                  href="https://github.com/marcelomaias/moovee"
+                >
+                  <span>View code</span>{" "}
+                  <FaExternalLinkAlt color="#fff" size={16} />
+                </Link>
+                <Link
+                  target="_blank"
+                  className="btn"
+                  href="https://moovee-one.vercel.app/"
+                >
+                  <span>View website</span>{" "}
+                  <FaExternalLinkAlt color="#333" size={16} />
+                </Link>
+              </div>
+            </div>
+            <Image
+              src={imgMoovee}
+              alt="Moovee thumbnail"
+              className="thumbnail"
+            />
+          </div>
+
+          <div className="card">
+            <div className="description">
+              <div>
+                <h3>
                   <Link
                     target="_blank"
-                    href="https://destinations-three.vercel.app/"
+                    href="https://destinations-now.vercel.app"
                   >
                     Destinations <FaExternalLinkAlt color="#0075f2" size={16} />
                   </Link>
@@ -157,7 +245,7 @@ export default function Home() {
                 <Link
                   target="_blank"
                   className="btn"
-                  href="https://destinations-three.vercel.app/"
+                  href="https://destinations-now.vercel.app"
                 >
                   <span>View website</span>{" "}
                   <FaExternalLinkAlt color="#333" size={16} />
@@ -171,7 +259,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="card">
+          {/* <div className="card">
             <div className="description">
               <div>
                 <h3>
@@ -212,7 +300,7 @@ export default function Home() {
               alt="Ocean Travel thumbnail"
               className="thumbnail"
             />
-          </div>
+          </div> */}
         </section>
 
         <section className="block projects">

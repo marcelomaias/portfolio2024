@@ -19,6 +19,7 @@ import imgDestinations from "@/app/images/destinations.jpg";
 import imgLandingPage from "@/app/images/payload-lp.jpg";
 import imgLinkSpace from "@/app/images/linkspace2.png";
 import imgMoovee from "@/app/images/moovee.png";
+import imgHorizon from "@/app/images/horizon.png";
 
 const currentYear = new Date().getFullYear();
 
@@ -134,6 +135,56 @@ export default function Home() {
             <div className="description">
               <div>
                 <h3>
+                  <Link
+                    target="_blank"
+                    href="https://horizoncontent.vercel.app/"
+                  >
+                    Horizon Content{" "}
+                    <FaExternalLinkAlt color="#0075f2" size={16} />
+                  </Link>
+                </h3>
+                <p>
+                  Headless CMS platform for marketing sites with visual editing,
+                  authentication, and media management.
+                </p>
+
+                <p>
+                  <strong>Tech stack:</strong> Next.js 15 · Payload CMS ·
+                  TypeScript · Tailwind · Vercel
+                </p>
+              </div>
+
+              <div className="actions">
+                <Link
+                  target="_blank"
+                  className="btn code"
+                  href="https://github.com/marcelomaias/horizon"
+                >
+                  <span>View code</span>{" "}
+                  <FaExternalLinkAlt color="#fff" size={16} />
+                </Link>
+                <Link
+                  target="_blank"
+                  className="btn"
+                  href="https://horizoncontent.vercel.app/"
+                >
+                  <span>View website</span>{" "}
+                  <FaExternalLinkAlt color="#333" size={16} />
+                </Link>
+              </div>
+            </div>
+            <Image
+              src={imgHorizon}
+              alt="Horizon thumbnail"
+              height="auto"
+              className="thumbnail"
+            />
+          </div>
+
+          <div className="card">
+            <div className="description">
+              <div>
+                <h3>
                   <Link target="_blank" href="https://linkspaceone.vercel.app">
                     LinkSpace <FaExternalLinkAlt color="#0075f2" size={16} />
                   </Link>
@@ -144,8 +195,8 @@ export default function Home() {
                 </p>
 
                 <p>
-                  <strong>Tech stack:</strong> Next.js 15 · Payload CMS ·
-                  TypeScript · Tailwind · Vercel
+                  <strong>Tech stack:</strong> Next.js 15 · TypeScript ·
+                  Tailwind · Vercel
                 </p>
               </div>
 

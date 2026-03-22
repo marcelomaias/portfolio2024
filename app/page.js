@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiPayloadcms } from "react-icons/si";
+import { SiPayloadcms, SiTypescript } from "react-icons/si";
 import imgMueller from "@/app/images/shoppingmueller.com.br.png";
 import imgMilitec from "@/app/images/militecbrasil.com.br.png";
 import logo from "@/app/images/logo.svg";
@@ -20,6 +20,7 @@ import imgLandingPage from "@/app/images/payload-lp.jpg";
 import imgLinkSpace from "@/app/images/linkspace2.png";
 import imgMoovee from "@/app/images/moovee.png";
 import imgHorizon from "@/app/images/horizon.png";
+import imgValemount from "@/app/images/Valemount.jpg";
 
 const currentYear = new Date().getFullYear();
 
@@ -46,24 +47,18 @@ export default function Home() {
             height={64}
           />
           <p>
-            Hi, I’m <strong>Marcelo Maia</strong> — a web developer focused on
-            building <strong>fast</strong>, <strong>well-structured</strong>,{" "}
-            <strong>content-driven web applications</strong> with an emphasis on{" "}
-            <strong>long-term maintainability</strong>.
+            Hi, I’m <strong>Marcelo Maia</strong> — a web developer focused on building <strong>fast, modern websites and platforms</strong>. I specialize in <strong>performance-driven, content-focused applications</strong> using tools like Next.js and Payload CMS.
           </p>
 
           <p>
-            I work with <strong>Next.js, React, and Payload CMS</strong>,
-            designing <strong>clear</strong>,{" "}
-            <strong>domain-driven content models</strong> to create intuitive
-            experiences for both <strong>users</strong> and{" "}
-            <strong>content editors</strong>.
+            I’m currently developing a <strong>platform specifically designed for showcasing sport horses and equestrian stables</strong>.
           </p>
 
           <div className="techs">
-            <FaHtml5 size={64} color="#333" title="HTML5" />{" "}
-            <FaCss3Alt size={64} color="#333" title="CSS" />{" "}
-            <IoLogoJavascript size={64} color="#333" title="JavaScript" />{" "}
+            {/* <FaHtml5 size={64} color="#333" title="HTML5" />{" "}
+            <FaCss3Alt size={64} color="#333" title="CSS" />{" "} */}
+            {/* <IoLogoJavascript size={64} color="#333" title="JavaScript" />{" "} */}
+            <SiTypescript size={64} color="#333" title="TypeScript" />
             <FaReact size={64} color="#333" title="React" />{" "}
             <RiNextjsFill size={64} color="#333" title="NextJS" />{" "}
             <SiPayloadcms size={64} color="#333" title="Payload CMS" />
@@ -78,11 +73,7 @@ export default function Home() {
               <div className="experience">
                 <h3>Independent Web Developer</h3>
                 <p>
-                  Developing modern web applications using{" "}
-                  <strong>Next.js, React, and Payload CMS</strong>, focusing on
-                  performance and scalable content architecture. Also providing
-                  freelance maintenance, improvements, and technical consulting
-                  for existing web projects.
+                  Developing <strong>modern, high-performance websites and platforms</strong> using Next.js and Payload CMS, with a focus on <strong>structured content</strong> and scalable architecture. Currently building a <strong>platform tailored for showcasing sport horses and equestrian stables</strong>, alongside freelance maintenance and consulting work.
                 </p>
                 <strong>March 2024 — Present</strong>
               </div>
@@ -137,6 +128,55 @@ export default function Home() {
                 <h3>
                   <Link
                     target="_blank"
+                    href="https://valemountequestrian.com/"
+                  >
+                    Valemount Equestrian{" "}
+                    <FaExternalLinkAlt color="#0075f2" size={16} />
+                  </Link>
+                </h3>
+                <p>
+                  Modern, high-performance website system designed for showcasing sport horses and stables. Multilingual, fast, and tailored for professional equestrian presentation.
+                </p>
+
+                <p>
+                  <strong>Tech stack:</strong> Next.js 15 · Payload CMS ·
+                  TypeScript
+                </p>
+              </div>
+
+              <div className="actions">
+                {/* <Link
+                  target="_blank"
+                  className="btn code"
+                  href="https://github.com/marcelomaias/horizon"
+                >
+                  <span>View code</span>{" "}
+                  <FaExternalLinkAlt color="#fff" size={16} />
+                </Link> */}
+                <Link
+                  target="_blank"
+                  className="btn"
+                  href="https://valemountequestrian.com/"
+                >
+                  <span>View website</span>{" "}
+                  <FaExternalLinkAlt color="#333" size={16} />
+                </Link>
+              </div>
+            </div>
+            <Image
+              src={imgValemount}
+              alt="Valemount thumbnail"
+              height="auto"
+              className="thumbnail"
+            />
+          </div>
+
+          <div className="card">
+            <div className="description">
+              <div>
+                <h3>
+                  <Link
+                    target="_blank"
                     href="https://horizoncontent.vercel.app/"
                   >
                     Horizon Content{" "}
@@ -144,8 +184,9 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  Headless CMS platform for marketing sites with visual editing,
-                  authentication, and media management.
+                  Headless CMS platform with authentication, media management,
+                  and visual editing for building and managing modern marketing
+                  websites.
                 </p>
 
                 <p>
@@ -272,7 +313,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="card">
+          {/* <div className="card">
             <div className="description">
               <div>
                 <h3>
@@ -319,7 +360,7 @@ export default function Home() {
               alt="Ocean Travel thumbnail"
               className="thumbnail"
             />
-          </div>
+          </div> */}
 
           {/* <div className="card">
             <div className="description">
@@ -495,7 +536,7 @@ export default function Home() {
         <section className="container">
           <h2>Contact</h2>
 
-          <p>I’m currently open to remote opportunities.</p>
+          <p>I’m currently available for <strong>select web projects and collaborations</strong>.</p>
           <p>
             Email:{" "}
             <a href="mailto:marcelomaias@gmail.com">marcelomaias@gmail.com</a> |{" "}

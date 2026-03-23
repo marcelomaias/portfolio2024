@@ -9,18 +9,16 @@ import {
   FaCss3Alt,
   FaReact,
 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiPayloadcms, SiTypescript } from "react-icons/si";
 import imgMueller from "@/app/images/shoppingmueller.com.br.png";
 import imgMilitec from "@/app/images/militecbrasil.com.br.png";
 import logo from "@/app/images/logo.svg";
-import imgDestinations from "@/app/images/destinations.jpg";
-import imgLandingPage from "@/app/images/payload-lp.jpg";
 import imgLinkSpace from "@/app/images/linkspace2.png";
 import imgMoovee from "@/app/images/moovee.png";
 import imgHorizon from "@/app/images/horizon.png";
 import imgValemount from "@/app/images/Valemount.jpg";
+import MarceloMaia from "@/app/images/MarceloMaia.jpg";
 
 const currentYear = new Date().getFullYear();
 
@@ -39,13 +37,14 @@ export default function Home() {
       <main>
         <section className="container">
           {/* <h1>marcelomaias.com</h1> */}
-          <Image
+          <Image src={MarceloMaia} alt="Marcelo Maia" className="logoPicture" width={128} height={128} />
+          {/* <Image
             src={logo}
             alt="Marcelo Maia Logo"
             className="logo"
             width={64}
             height={64}
-          />
+          /> */}
           <p>
             Hi, I’m <strong>Marcelo Maia</strong> — a web developer focused on building <strong>fast, modern websites and platforms</strong>. I specialize in <strong>performance-driven, content-focused applications</strong> using tools like Next.js and Payload CMS.
           </p>

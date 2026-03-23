@@ -25,19 +25,20 @@ const currentYear = new Date().getFullYear();
 export default function Home() {
   return (
     <>
-      <div className="social">
-        <Link href="https://www.linkedin.com/in/marcelomaia/" target="_blank">
-          <FaLinkedin size={32} color="#000" title="Open on new tab/window" />
-        </Link>
-        <Link href="https://github.com/marcelomaias" target="_blank">
-          <FaGithub size={32} color="#000" title="Open on new tab/window" />
-        </Link>
-      </div>
+
 
       <main>
-        <section className="container">
+        <section className="container hero">
           {/* <h1>marcelomaias.com</h1> */}
           <Image src={MarceloMaia} alt="Marcelo Maia" className="logoPicture" width={128} height={128} />
+          <div className="social">
+            <Link href="https://www.linkedin.com/in/marcelomaia/" target="_blank">
+              <FaLinkedin size={24} color="#000" title="Open on new tab/window" />
+            </Link>
+            <Link href="https://github.com/marcelomaias" target="_blank">
+              <FaGithub size={24} color="#000" title="Open on new tab/window" />
+            </Link>
+          </div>
           {/* <Image
             src={logo}
             alt="Marcelo Maia Logo"

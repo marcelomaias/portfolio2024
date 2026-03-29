@@ -51,7 +51,7 @@ export default function Home() {
           </p>
 
           <p>
-            I’m currently developing a <strong>platform specifically designed for showcasing sport horses and equestrian stables</strong>.
+            Currently building a <strong>modern platform</strong> for presenting <strong>sport horses and equestrian stables online</strong>.
           </p>
 
           <div className="techs">
@@ -127,11 +127,9 @@ export default function Home() {
               <div>
                 <h3>
                   <Link
-                    target="_blank"
-                    href="https://valemountequestrian.com/"
+                    href="/valemount/"
                   >
-                    Valemount Equestrian{" "}
-                    <FaExternalLinkAlt color="#0075f2" size={16} />
+                    Valemount Equestrian
                   </Link>
                 </h3>
                 <p>
@@ -145,20 +143,18 @@ export default function Home() {
               </div>
 
               <div className="actions">
-                {/* <Link
-                  target="_blank"
+                <Link
                   className="btn code"
-                  href="https://github.com/marcelomaias/horizon"
+                  href="/valemount"
                 >
-                  <span>View code</span>{" "}
-                  <FaExternalLinkAlt color="#fff" size={16} />
-                </Link> */}
+                  <span>View Project</span>
+                </Link>
                 <Link
                   target="_blank"
                   className="btn"
                   href="https://valemountequestrian.com/"
                 >
-                  <span>View website</span>{" "}
+                  <span>Live Demo</span>{" "}
                   <FaExternalLinkAlt color="#333" size={16} />
                 </Link>
               </div>
@@ -184,9 +180,7 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  Headless CMS platform with authentication, media management,
-                  and visual editing for building and managing modern marketing
-                  websites.
+                  Content platform built for fast, scalable marketing websites with structured content and media management.
                 </p>
 
                 <p>

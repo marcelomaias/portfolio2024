@@ -266,22 +266,21 @@ export default function Valemount() {
               <div className={styles['how-num']}>01</div>
               <div className={styles['how-title']}>Setup &amp; Customisation</div>
               <p className={styles['how-desc']}>
-                We configure the system around your stable's identity — brand colours, fonts, domain and language settings.
+                We configure the system around your stable’s identity — brand colours, fonts, domain, and language settings.
               </p>
             </div>
             <div className={styles['how-step']}>
               <div className={styles['how-num']}>02</div>
               <div className={styles['how-title']}>Content Upload</div>
               <p className={styles['how-desc']}>
-                You provide photos, horse descriptions and trainer bios. We structure and publish everything — or guide you through
-                it yourself.
+                You provide photos, horse descriptions, and trainer bios. We structure and publish everything for you.
               </p>
             </div>
             <div className={styles['how-step']}>
               <div className={styles['how-num']}>03</div>
               <div className={styles['how-title']}>Go Live</div>
               <p className={styles['how-desc']}>
-                Your website launches. You manage it independently from day one, with support always a message away.
+                Your website launches. You can manage and update everything independently from day one, with support always a message away.
               </p>
             </div>
           </div>

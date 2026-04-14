@@ -47,11 +47,11 @@ export default function Home() {
             height={64}
           /> */}
           <p>
-            Hi, I’m <strong>Marcelo Maia</strong> — a web developer focused on building <strong>fast, modern websites and platforms</strong>. I specialize in <strong>performance-driven, content-focused applications</strong> using tools like Next.js and Payload CMS.
+            Hi, I’m <strong>Marcelo Maia</strong> — a front-end developer focused on building <strong>fast, accessible, and well-structured websites</strong>. I specialize in <strong>semantic HTML, modular CSS, and performance-driven development</strong>, working with tools like Next.js and modern CMS architectures.
           </p>
 
           <p>
-            Currently building a <strong>modern platform</strong> for presenting <strong>sport horses and equestrian stables online</strong>.
+            Recently built a <strong>multilingual, static-first platform</strong> for showcasing <strong>sport horses and equestrian stables</strong>, with a strong focus on <strong>SEO, performance, and clean UI implementation</strong>.
           </p>
 
           <div className="techs">
@@ -73,7 +73,10 @@ export default function Home() {
               <div className="experience">
                 <h3>Independent Web Developer</h3>
                 <p>
-                  Developing <strong>modern, high-performance websites and platforms</strong> using Next.js and Payload CMS, with a focus on <strong>structured content</strong> and scalable architecture. Currently building a <strong>platform tailored for showcasing sport horses and equestrian stables</strong>, alongside freelance maintenance and consulting work.
+                  Developing <strong>high-performance, content-driven websites</strong> using static site generation with Next.js and a headless CMS architecture. Focused on <strong>semantic HTML, modular CSS, and performance optimization</strong>, building fast, SEO-friendly interfaces with clean, maintainable code.
+                </p>
+                <p>
+                  Currently building a <strong>multilingual platform for showcasing sport horses and equestrian stables</strong>, with emphasis on <strong>structured content, accessibility, and precise UI implementation</strong>, alongside freelance maintenance and consulting work.
                 </p>
                 <strong>March 2024 — Present</strong>
               </div>
@@ -133,7 +136,7 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  Modern, high-performance website system designed for showcasing sport horses and stables. Multilingual, fast, and tailored for professional equestrian presentation.
+                  High-performance, multilingual website system for showcasing sport horses and stables, built with a static-first architecture. Focused on semantic HTML, SEO, and fast loading times, with CMS-driven content and optimized delivery.
                 </p>
 
                 <p>

@@ -47,11 +47,11 @@ export default function Home() {
             height={64}
           /> */}
           <p>
-            Hi, I’m <strong>Marcelo Maia</strong> — a front-end developer focused on building <strong>fast, accessible, and well-structured websites</strong>. I specialize in <strong>semantic HTML, modular CSS, and performance-driven development</strong>, working with tools like Next.js and modern CMS architectures.
+            Hi, I’m <strong>Marcelo Maia</strong> — a front-end developer focused on building <strong>fast, accessible, and well-structured websites</strong>, with an emphasis on <strong>semantic HTML, CSS, and performance</strong>.
           </p>
 
           <p>
-            Recently built a <strong>multilingual, static-first platform</strong> for showcasing <strong>sport horses and equestrian stables</strong>, with a strong focus on <strong>SEO, performance, and clean UI implementation</strong>.
+            Currently building a <strong>multilingual, static-first platform</strong> for showcasing <strong>sport horses and equestrian stables</strong>, focused on <strong>SEO, performance, and clean UI</strong>.
           </p>
 
           <div className="techs">

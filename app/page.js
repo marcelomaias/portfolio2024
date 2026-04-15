@@ -51,7 +51,7 @@ export default function Home() {
           </p>
 
           <p>
-            I approach frontend development with a strong focus on fundamentals — building interfaces that are <strong>maintainable, performant, and scalable</strong>. I value <strong>semantic structure</strong>, careful use of JavaScript, and choosing the right rendering strategy depending on the problem, rather than defaulting to heavy client-side solutions.
+            I focus on building web interfaces grounded in strong fundamentals — prioritizing <strong>semantic HTML</strong>, <strong>performance</strong>, and long-term maintainability, while choosing the right tools and rendering strategies for each problem.
           </p>
 
           <div className="techs">

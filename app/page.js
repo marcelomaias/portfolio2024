@@ -51,7 +51,7 @@ export default function Home() {
           </p>
 
           <p>
-            Currently building a <strong>multilingual, static-first platform</strong> for showcasing <strong>sport horses and equestrian stables</strong>, focused on <strong>SEO, performance, and clean UI</strong>.
+            I approach frontend development with a strong focus on fundamentals — building interfaces that are <strong>maintainable, performant, and scalable</strong>. I value <strong>semantic structure</strong>, careful use of JavaScript, and choosing the right rendering strategy depending on the problem, rather than defaulting to heavy client-side solutions.
           </p>
 
           <div className="techs">

@@ -170,6 +170,54 @@ export default function Home() {
             />
           </div>
 
+
+
+          <div className="card">
+            <div className="description">
+              <div>
+                <h3>
+                  <Link target="_blank" href="https://linkspaceone.vercel.app">
+                    LinkSpace <FaExternalLinkAlt color="#0075f2" size={16} />
+                  </Link>
+                </h3>
+                <p>
+                  Link-in-bio platform with customizable profiles,
+                  authentication, and media uploads.
+                </p>
+
+                <p>
+                  <strong>Tech stack:</strong> Next.js 15 · TypeScript ·
+                  Tailwind · Vercel
+                </p>
+              </div>
+
+              <div className="actions">
+                <Link
+                  target="_blank"
+                  className="btn code"
+                  href="https://github.com/marcelomaias/linkspace"
+                >
+                  <span>View code</span>{" "}
+                  <FaExternalLinkAlt color="#fff" size={16} />
+                </Link>
+                <Link
+                  target="_blank"
+                  className="btn"
+                  href="https://linkspaceone.vercel.app"
+                >
+                  <span>View website</span>{" "}
+                  <FaExternalLinkAlt color="#333" size={16} />
+                </Link>
+              </div>
+            </div>
+            <Image
+              src={imgLinkSpace}
+              alt="LinkSpace thumbnail"
+              height="auto"
+              className="thumbnail"
+            />
+          </div>
+
           <div className="card">
             <div className="description">
               <div>
@@ -214,52 +262,6 @@ export default function Home() {
             <Image
               src={imgHorizon}
               alt="Horizon thumbnail"
-              height="auto"
-              className="thumbnail"
-            />
-          </div>
-
-          <div className="card">
-            <div className="description">
-              <div>
-                <h3>
-                  <Link target="_blank" href="https://linkspaceone.vercel.app">
-                    LinkSpace <FaExternalLinkAlt color="#0075f2" size={16} />
-                  </Link>
-                </h3>
-                <p>
-                  Link-in-bio platform with customizable profiles,
-                  authentication, and media uploads.
-                </p>
-
-                <p>
-                  <strong>Tech stack:</strong> Next.js 15 · TypeScript ·
-                  Tailwind · Vercel
-                </p>
-              </div>
-
-              <div className="actions">
-                <Link
-                  target="_blank"
-                  className="btn code"
-                  href="https://github.com/marcelomaias/linkspace"
-                >
-                  <span>View code</span>{" "}
-                  <FaExternalLinkAlt color="#fff" size={16} />
-                </Link>
-                <Link
-                  target="_blank"
-                  className="btn"
-                  href="https://linkspaceone.vercel.app"
-                >
-                  <span>View website</span>{" "}
-                  <FaExternalLinkAlt color="#333" size={16} />
-                </Link>
-              </div>
-            </div>
-            <Image
-              src={imgLinkSpace}
-              alt="LinkSpace thumbnail"
               height="auto"
               className="thumbnail"
             />

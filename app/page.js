@@ -25,15 +25,26 @@ const currentYear = new Date().getFullYear();
 export default function Home() {
   return (
     <>
-
-
       <main>
         <section className="container hero">
           {/* <h1>marcelomaias.com</h1> */}
-          <Image src={MarceloMaia} alt="Marcelo Maia" className="logoPicture" width={128} height={128} />
+          <Image
+            src={MarceloMaia}
+            alt="Marcelo Maia"
+            className="logoPicture"
+            width={128}
+            height={128}
+          />
           <div className="social">
-            <Link href="https://www.linkedin.com/in/marcelomaia/" target="_blank">
-              <FaLinkedin size={24} color="#000" title="Open on new tab/window" />
+            <Link
+              href="https://www.linkedin.com/in/marcelomaia/"
+              target="_blank"
+            >
+              <FaLinkedin
+                size={24}
+                color="#000"
+                title="Open on new tab/window"
+              />
             </Link>
             <Link href="https://github.com/marcelomaias" target="_blank">
               <FaGithub size={24} color="#000" title="Open on new tab/window" />
@@ -47,11 +58,26 @@ export default function Home() {
             height={64}
           /> */}
           <p>
-            Hi, I’m <strong>Marcelo Maia</strong> — a front-end developer focused on building <strong>fast, accessible, and well-structured websites</strong>, with an emphasis on <strong>semantic HTML, CSS, and performance</strong>.
+            Hi, I’m <strong>Marcelo Maia</strong> — an experienced front-end
+            developer focused on building{" "}
+            <strong>
+              fast, accessible, and well-structured web applications
+            </strong>{" "}
+            with strong foundations in{" "}
+            <strong>semantic HTML, CSS, JavaScript, and performance</strong>.
           </p>
 
           <p>
-            I focus on building web interfaces grounded in strong fundamentals — prioritizing <strong>semantic HTML</strong>, <strong>performance</strong>, and long-term maintainability, while choosing the right tools and rendering strategies for each problem.
+            I build modern React/Next.js applications with a strong focus on{" "}
+            <strong>performance</strong>, <strong>maintainability</strong>, and
+            practical user experience — choosing the right tools and rendering
+            strategies for each project.
+          </p>
+
+          <p>
+            Beyond front-end development, I’m comfortable owning features
+            end-to-end, collaborating across the stack, and adapting quickly to
+            modern AI-assisted workflows.
           </p>
 
           <div className="techs">
@@ -72,12 +98,36 @@ export default function Home() {
             <div className="experiences">
               <div className="experience">
                 <h3>Independent Web Developer</h3>
+
                 <p>
-                  Developing <strong>high-performance, content-driven websites</strong> using static site generation with Next.js and a headless CMS architecture. Focused on <strong>semantic HTML, modular CSS, and performance optimization</strong>, building fast, SEO-friendly interfaces with clean, maintainable code.
+                  Developing{" "}
+                  <strong>
+                    high-performance, content-driven web applications
+                  </strong>{" "}
+                  using Next.js, static site generation, and headless CMS
+                  architectures. Focused on{" "}
+                  <strong>
+                    semantic HTML, modular CSS, accessibility, and performance
+                    optimization
+                  </strong>
+                  , building fast, SEO-friendly interfaces with clean and
+                  maintainable code.
                 </p>
+
                 <p>
-                  Currently building a <strong>multilingual platform for showcasing sport horses and equestrian stables</strong>, with emphasis on <strong>structured content, accessibility, and precise UI implementation</strong>, alongside freelance maintenance and consulting work.
+                  Delivered a{" "}
+                  <strong>
+                    multilingual platform for showcasing sport horses and
+                    equestrian stables
+                  </strong>
+                  , with emphasis on{" "}
+                  <strong>
+                    structured content, scalable architecture, and precise UI
+                    implementation
+                  </strong>
+                  , alongside freelance maintenance and consulting work.
                 </p>
+
                 <strong>March 2024 — Present</strong>
               </div>
               <div className="experience">
@@ -129,14 +179,13 @@ export default function Home() {
             <div className="description">
               <div>
                 <h3>
-                  <Link
-                    href="/valemount/"
-                  >
-                    Valemount Equestrian
-                  </Link>
+                  <Link href="/valemount/">Valemount Equestrian</Link>
                 </h3>
                 <p>
-                  High-performance, multilingual website system for showcasing sport horses and stables, built with a static-first architecture. Focused on semantic HTML, SEO, and fast loading times, with CMS-driven content and optimized delivery.
+                  High-performance, multilingual website system for showcasing
+                  sport horses and stables, built with a static-first
+                  architecture. Focused on semantic HTML, SEO, and fast loading
+                  times, with CMS-driven content and optimized delivery.
                 </p>
 
                 <p>
@@ -146,10 +195,7 @@ export default function Home() {
               </div>
 
               <div className="actions">
-                <Link
-                  className="btn code"
-                  href="/valemount"
-                >
+                <Link className="btn code" href="/valemount">
                   <span>View Project</span>
                 </Link>
                 <Link
@@ -169,8 +215,6 @@ export default function Home() {
               className="thumbnail"
             />
           </div>
-
-
 
           <div className="card">
             <div className="description">
@@ -231,7 +275,8 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  Content platform built for fast, scalable marketing websites with structured content and media management.
+                  Content platform built for fast, scalable marketing websites
+                  with structured content and media management.
                 </p>
 
                 <p>
@@ -535,7 +580,10 @@ export default function Home() {
         <section className="container">
           <h2>Contact</h2>
 
-          <p>I’m currently available for <strong>select web projects and collaborations</strong>.</p>
+          <p>
+            I’m currently available for{" "}
+            <strong>select web projects and collaborations</strong>.
+          </p>
           <p>
             Email:{" "}
             <a href="mailto:marcelomaias@gmail.com">marcelomaias@gmail.com</a> |{" "}

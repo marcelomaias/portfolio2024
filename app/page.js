@@ -215,7 +215,7 @@ export default function Home() {
                   </Link>
                 </h3>
                 <p>
-                  Link-in-bio platform with customizable profiles,
+                  Link-bio platform with customizable profiles, user
                   authentication, and media uploads.
                 </p>
 

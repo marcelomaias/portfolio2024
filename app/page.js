@@ -58,26 +58,22 @@ export default function Home() {
             height={64}
           /> */}
           <p>
-            Hi, I’m <strong>Marcelo Maia</strong> — an experienced front-end
-            developer focused on building{" "}
-            <strong>
-              fast, accessible, and well-structured web applications
-            </strong>{" "}
-            with strong foundations in{" "}
-            <strong>semantic HTML, CSS, JavaScript, and performance</strong>.
+            Hi, I’m <strong>Marcelo Maia</strong> — a front-end developer
+            focused on building{" "}
+            <strong>fast, scalable, and content-driven web applications</strong>{" "}
+            using <strong>React, Next.js, and Payload CMS</strong>.
           </p>
 
           <p>
-            I build modern React/Next.js applications with a strong focus on{" "}
+            I build modern websites and digital platforms with a strong focus on{" "}
             <strong>performance</strong>, <strong>maintainability</strong>, and
-            practical user experience — choosing the right tools and rendering
-            strategies for each project.
+            clean developer experience.
           </p>
 
           <p>
-            Beyond front-end development, I’m comfortable owning features
-            end-to-end, collaborating across the stack, and adapting quickly to
-            modern AI-assisted workflows.
+            Comfortable collaborating across the stack, creating flexible CMS
+            architectures, and working within modern AI-assisted development
+            workflows.
           </p>
 
           <div className="techs">
@@ -100,18 +96,10 @@ export default function Home() {
                 <h3>Independent Web Developer</h3>
 
                 <p>
-                  Developing{" "}
-                  <strong>
-                    high-performance, content-driven web applications
-                  </strong>{" "}
-                  using Next.js, static site generation, and headless CMS
-                  architectures. Focused on{" "}
-                  <strong>
-                    semantic HTML, modular CSS, accessibility, and performance
-                    optimization
-                  </strong>
-                  , building fast, SEO-friendly interfaces with clean and
-                  maintainable code.
+                  Developing content-driven web applications using{" "}
+                  <strong>Next.js and Payload CMS</strong>, with emphasis on
+                  structured content modeling, SEO, and scalable front-end
+                  architecture.
                 </p>
 
                 <p>
@@ -120,12 +108,14 @@ export default function Home() {
                     multilingual platform for showcasing sport horses and
                     equestrian stables
                   </strong>
-                  , with emphasis on{" "}
-                  <strong>
-                    structured content, scalable architecture, and precise UI
-                    implementation
-                  </strong>
-                  , alongside freelance maintenance and consulting work.
+                  , implementing custom CMS structures, static generation
+                  workflows, and performant, accessible interfaces tailored for
+                  international audiences.
+                </p>
+
+                <p>
+                  Also contributing to freelance projects involving feature
+                  development and website maintenance.
                 </p>
 
                 <strong>March 2024 — Present</strong>
